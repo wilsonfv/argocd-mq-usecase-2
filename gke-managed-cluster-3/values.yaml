@@ -1,0 +1,9 @@
+# Minimal dedicated values for gke-managed-cluster-3 (VPC2 subnet 1)
+cluster:
+  name: gke-managed-cluster-3
+  project: mq-usecase-2
+  network: network3
+  role: managed
+istio:
+  meshID: ambient-mesh-vpc2
+  trustDomain: mq-usecase-1.local
