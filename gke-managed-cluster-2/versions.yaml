@@ -1,0 +1,3 @@
+versions:
+  istio: "1.30.7"
+  gatekeeper: "3.23.1"
